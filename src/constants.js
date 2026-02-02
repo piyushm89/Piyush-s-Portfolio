@@ -41,7 +41,7 @@ import upskillLogo from './assets/company_logo/upskill.png';
 // Note: Education logos are referenced directly in the education array
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
+import portfolio from './assets/work_logo/portfolio.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
@@ -74,7 +74,6 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
@@ -100,7 +99,7 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
+      // { name: 'Netlify', logo: netlifyLogo },
       // { name: 'Docker', logo: dockerLogo },
 
     ],
@@ -153,10 +152,10 @@ desc: "• Developed 8+ RESTful APIs using NodeJs, reducing data retrieval time 
     {
       id: 2,
       img: upskillLogo,
-      role: "fullstack Developer Intern",
-      company: "upskill campus",
-      date: "May 2025 - October 2025",
-      desc: "Worked as a fullstack Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      role: "fullstack Developer ",
+      company: " HCL Technologies",
+      date: "Nov 2024 - March 2025",
+desc: "Worked as a fullstack Developer Intern, Developed a fullstack rental marketplace with CRUD for listings, bookings, and profiles. Enhanced user experience with React + Tailwind, achieving 25% faster load times, and integrated MongoDB for scalability and performance.",
       skills: [
         "HTML",
         "CSS",
@@ -209,13 +208,13 @@ desc: "• Developed 8+ RESTful APIs using NodeJs, reducing data retrieval time 
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
+      title: "ShowCaseX - My Portfolio",
+description:
+  "Built a modern personal portfolio website using React with a fully responsive and mobile-first UI design. Implemented smooth navigation, reusable components and optimized performance for fast load times and seamless user experience.",
+      image: portfolio,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      github: "https://github.com/piyushm89/Piyush-s-Portfolio.git",
+      webapp: "https://piyush-s-portfolio-iota.vercel.app/",
     },
     {
       id: 1,
